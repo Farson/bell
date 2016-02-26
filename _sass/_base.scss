@@ -23,6 +23,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    background-color: #e2e2e2;
+    background-image: url("/images/orange_punkte.png");
 }
 
 
@@ -156,10 +158,12 @@ pre {
  * Wrapper
  */
 .wrapper {
+    background-color: $content-fill-color;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
+    padding-top: $spacing-unit;;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;

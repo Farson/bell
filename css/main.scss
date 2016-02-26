@@ -12,7 +12,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     20px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -22,8 +22,17 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$orange: #ff4c00;
+$yellow: #ffff00;
+$dark_yellow: #b2a000;
+$gray: #999999;
+
+$main-color: $orange;
+$secondary-color: $yellow;
+$content-fill-color: #fff;
+
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
