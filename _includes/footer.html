@@ -1,24 +1,13 @@
-<footer class="site-footer">
-
+<footer>
   <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <h3>Oksana Gribele</h3>
-        Telefon: 0176 - 97914845</br>
-        E-Mail: oksana@gloeckchen-kinderevents.de
-      </div>
+    <div class="contact">
+      <h3>Oksana Gribele</h3>
+      Telefon: 0176 - 97914845</br>
+      E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
     </div>
 
+    <div class="impressum">
+      <a href="/Impressum">Impressum</a>
+    </div>
   </div>
-
 </footer>
